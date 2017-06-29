@@ -1,0 +1,21 @@
+th {
+
+  div {
+    float: right;
+
+    img {
+      height: 15px;
+    }
+
+    &.desc {
+
+      img {
+        -webkit-transform: rotateX(180deg);
+        -moz-transform: rotateX(180deg);
+        -ms-transform: rotateX(180deg);
+        -o-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+      }
+    }
+  }
+}
